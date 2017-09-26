@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="theappshelf.yen.prototype.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/mainLinearLayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|top">
+        <TextView
+            android:id="@+id/earnedText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Earned:"
+            android:gravity="center|top"/>
+        <TextView
+            android:id="@+id/spentText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Spent"
+            android:gravity="center|top" />
+        <EditText
+            android:id="@+id/inputInfo"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/defaultInput"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <Button
+                android:id="@+id/addSpentButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/spentButton"
+                />
+            <Button
+                android:id="@+id/addEarnedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/earnedButton"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
