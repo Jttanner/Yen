@@ -1,4 +1,4 @@
-package ServerProxy;
+package server_communication;
 
 
 import android.content.Context;

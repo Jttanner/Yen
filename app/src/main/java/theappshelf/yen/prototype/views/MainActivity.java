@@ -1,6 +1,5 @@
-package theappshelf.yen.prototype;
+package theappshelf.yen.prototype.views;
 
-import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -8,13 +7,9 @@ import android.text.SpannableString;
 import android.text.style.RelativeSizeSpan;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.util.concurrent.ExecutionException;
-
-import ServerProxy.SimpleServerProxy;
 import theappshelf.yen.R;
 
 public class MainActivity extends AppCompatActivity {
